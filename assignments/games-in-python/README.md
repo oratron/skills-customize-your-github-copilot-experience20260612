@@ -1,19 +1,47 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: 🎮 Hangman Game Challenge
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build the classic word-guessing game using Python strings, loops, and user input. You'll practice string manipulation, loops, conditionals, and random selection while creating an interactive game where players guess letters to reveal a hidden word before running out of attempts.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Task 1: Set Up the Game
 
-## ✅ Must Have's
+#### Description
+Initialize the game with a word list and set up the game state variables needed to track the game progress.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
+#### Requirements
+Completed program should:
+
+- Import necessary modules (e.g., `random`)
+- Define a list of words to choose from
+- Randomly select a word at the start of each game
+- Initialize variables to track guesses, attempts, and game state
+
+### 🛠️ Task 2: Implement Guess Handling
+
+#### Description
+Create the core game loop that accepts letter guesses and displays the current progress of the word.
+
+#### Requirements
+Completed program should:
+
+- Accept letter guesses from the player
+- Show current progress with underscores for unrevealed letters (e.g., `_ _ _ format`)
+- Track incorrect guesses and remaining attempts
+- Prevent duplicate guesses
+
+### 🛠️ Task 3: Add Win/Lose Logic
+
+#### Description
+Implement game-ending conditions and display appropriate messages when the game concludes.
+
+#### Requirements
+Completed program should:
+
+- End when the word is correctly guessed
+- End when attempts are exhausted
 - Display win/lose messages
+- Ask player if they want to play again
